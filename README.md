@@ -21,5 +21,13 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### mock data by json-server
+```
+npm run mock
+```
+
+### request by Axios
+```
+this.$get(url, params).then(res => {})
+this.$post(url, params).then(res => {})
+```
