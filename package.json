@@ -1,5 +1,5 @@
 {
-  "name": "hzcy_screen",
+  "name": "vue_empty",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,7 +19,8 @@
     "v-charts": "^1.19.0",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3",
-    "vuex": "^3.1.2"
+    "vuex": "^3.1.2",
+    "js-file-download": "^0.4.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",

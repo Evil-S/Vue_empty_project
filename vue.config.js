@@ -10,6 +10,13 @@ module.exports = {
     host: '0.0.0.0',
     https: false, // https:{type:Boolean}
     open: true, //配置自动启动浏览器
-    // proxy: 'http://localhost:4000' // 配置跨域处理,只有一个代理
+    proxy: {
+      '/proxyApi': {
+        target: 'http://10.2.34.108:17200',
+        pathRewrite: {
+          '^/proxyApi' : '/ctm01boatstorage'
+        }
+      },
+    }
   }
 };
